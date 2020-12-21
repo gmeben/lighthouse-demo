@@ -28,10 +28,10 @@ services:
     volumes:
       - ./mysql:/var/lib/mysql
     environment:
-      MYSQL_DATABASE: homestead
-      MYSQL_USER: homestead
-      MYSQL_PASSWORD: secret
-      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: lighthouse
+      MYSQL_USER: lighthouseuser
+      MYSQL_PASSWORD: lighthousepassword
+      MYSQL_ROOT_PASSWORD: lighthousesecret
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     networks:
